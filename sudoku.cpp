@@ -114,6 +114,7 @@ int main() {
         {0, 4, 0, 5, 0, 8, 0, 7, 0}
     };
     Sudoku sudoku(sudoku_grid);
+    sudoku.print_sudoku();
     sudoku.solve(); // solve current sudoku
     sudoku.print_sudoku(); // print solved sudoku
 
